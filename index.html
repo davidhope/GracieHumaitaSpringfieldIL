@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="gracie">
+	<head>
+		<title>Gracie Humaita Springfield IL</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	</head>
+	<body>
+		<div class="nav-wrapper has-dropdown">
+	      <div class="nav-content">
+	        <div class="wrapper">
+	          <div class="nav-content-layout">
+	            <div class="nav-list">
+
+	              <a href="#/"
+	              class="list-item"
+	              ng-click="selected = 'home'"
+	              ng-class="{'active': selected == 'home'}"> Home </a>
+
+	              <a href="#/classes"
+	              class="list-item"
+	              ng-click="selected = 'classes'"
+	              ng-class="{'active': selected == 'classes'}"> Classes </a>
+
+	              <a href="#/instructors"
+	              class="list-item"
+	              ng-click="selected = 'instructors'"
+	              ng-class="{'active': selected == 'instructors'}"> Instructors </a>
+
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="hero-wrapper">
+	      <div class="hero-content">
+	        <div class="hero"></div>
+	      </div>
+	    </div>
+
+	    <div class="main-wrapper">
+	      <div ng-view></div>
+	    </div>
+
+		<script src="//code.angularjs.org/1.4.3/angular.min.js"></script> 
+		<script src="//code.angularjs.org/1.4.3/angular-route.min.js"></script>    
+		
+		<script src="js/app.js"></script> 
+		<script src="js/controllers/MainController.js"></script>  
+	</body>  
+</html>
