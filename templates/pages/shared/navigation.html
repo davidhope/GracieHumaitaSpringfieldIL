@@ -41,6 +41,11 @@
                         ng-click="selected = 'instructors'" 
                         ng-class="{'js-activated': selected == 'instructors'}">Instructors</a> 
                 </li>
+                <li ng-class="{'active': selected == 'contact'}">
+                    <a href="#/contact" class="dropdown-toggle" 
+                        ng-click="selected = 'contact'" 
+                        ng-class="{'js-activated': selected == 'contact'}">Contact</a> 
+                </li>
             </ul>
         </div><!--/.nav-collapse -->
     </div><!--/.container-->

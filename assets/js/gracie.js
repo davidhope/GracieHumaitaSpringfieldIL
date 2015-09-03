@@ -21,26 +21,6 @@ $(function() {
 
 });
 
-
-$(function() {
-  /*====flex  slider for main slider or testimonials====
-  $('.main-flex-slider,.testimonials').flexslider({
-      slideshowSpeed: 5000,
-      directionNav: false,
-      animation: "fade"
-  });*/
-});
-
-/*========flex-gallery slide====*/
-$(function() {
-    $('.flexslider').flexslider({
-        directionNav: false,
-        slideshowSpeed: 3000,
-        animation: "fade"
-    });
-});
-
-
 /*========portfolio mix====*/
 $('#grid').mixitup();
 
