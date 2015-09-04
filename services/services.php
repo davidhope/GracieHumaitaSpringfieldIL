@@ -4,12 +4,10 @@
 		switch ($_POST['fn']){
 			case 'SendForm':
 				$message = $_POST['message'];
-				$subject = $_POST['subject'];
-                $gid = $_POST['gid'];
+                $from = $_POST['from'];
                 
-				$gc = new GroupController();
                 
-				ReturnJsonSuccess($gc->SendMessageByGroup($message,$subject,$gid));
+				ReturnJsonSuccess(sendEmail($from, $message));
                 
 				break;
 			default:
