@@ -40,22 +40,22 @@
 
 		this.slides = [	
 							{
-						    	image: '/gracie/assets/img/img-1.jpg',
+						    	image: 'assets/img/img-1.jpg',
 							    title: 'slide 1',
 							    text: 'asd al a  fkdk  akj fkdjfla ld la dfl alfd'
 						  	}, 
 						  	{
-						    	image: '/gracie/assets/img/img-2.jpg',
+						    	image: 'assets/img/img-2.jpg',
 							    title: 'slide 2',
 							    text: 'asd al a  fkdk  akj fkdjfla ld la dfl alfd'
 						  	}, 
 						  	{
-						    	image: '/gracie/assets/img/img-3.jpg',
+						    	image: 'assets/img/img-3.jpg',
 							    title: 'slide 3',
 							    text: 'asd al a  fkdk  akj fkdjfla ld la dfl alfd'
 						  	}, 
 						  	{
-						    	image: '/gracie/assets/img/img-4.jpg',
+						    	image: 'assets/img/img-4.jpg',
 							    title: 'slide 4',
 							    text: 'asd al a  fkdk  akj fkdjfla ld la dfl alfd'
 						  	}

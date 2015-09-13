@@ -12,25 +12,25 @@
     $routeProvider
     	.when('/instructors',
     		{
-    			templateUrl: '/gracie/templates/pages/instructors/index.html',
+    			templateUrl: 'templates/pages/instructors/index.html',
 				  controller: 'InstructorsController',
 				  controllerAs: 'instructorsCtrl'
     		})
     	.when('/classes',
     		{
-    			templateUrl: '/gracie/templates/pages/classes/index.html',
+    			templateUrl: 'templates/pages/classes/index.html',
   				controller: 'ClassesController',
   				controllerAs: 'classesCtrl'
 			 })
       .when('/contact',
         {
-          templateUrl: '/gracie/templates/pages/contact/index.html',
+          templateUrl: 'templates/pages/contact/index.html',
           controller: 'ContactController',
           controllerAs: 'contactCtrl'
         })
     	.when('/',
     		{	
-    			templateUrl: '/gracie/templates/pages/main.html',
+    			templateUrl: 'templates/pages/main.html',
   				controller: 'MainController',
   				controllerAs: 'mainCtrl'
 		    })

@@ -10,8 +10,8 @@
 		# First, instantiate the SDK with your API credentials and define your domain. 
 
 		# Now, compose and send your message.
-		$mg->sendMessage($domain, array('from'    => 'dhope@example.com', 
-		                                'to'      => 'flav.flavor@gmail.com', 
+		$mg->sendMessage($domain, array('from'    => 'noreplay@acadnav.com', 
+		                                'to'      => 'web-AtQocs@mail-tester.com', 
 		                                'subject' => 'The PHP SDK is awesome!', 
 		                                'text'    => 'It is so simple to send a message.'));
 
